@@ -1,6 +1,6 @@
 body{
-font-family: Arial;
-background:#0a0a0a;
+font-family:Arial;
+background:#0b0b0b;
 color:white;
 margin:0;
 }
@@ -9,10 +9,6 @@ header{
 text-align:center;
 padding:30px;
 background:#111;
-}
-
-.logo{
-width:120px;
 }
 
 nav{
@@ -26,30 +22,29 @@ padding:15px;
 nav a{
 color:white;
 text-decoration:none;
-font-weight:bold;
 }
 
 nav a:hover{
 color:orange;
 }
 
-section{
-padding:40px;
-max-width:900px;
+.container{
+max-width:1000px;
 margin:auto;
+padding:30px;
 }
 
-article{
-margin-bottom:25px;
+.dark{
+background:#050505;
+color:#eee;
 }
 
-h1{
-color:orange;
+.article{
+margin-bottom:40px;
 }
 
 footer{
 text-align:center;
 padding:20px;
 background:#111;
-margin-top:40px;
 }
