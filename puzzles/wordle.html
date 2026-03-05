@@ -1,40 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>PALs Wordle</title>
-<link rel="stylesheet" href="../style.css">
-</head>
-
-<body>
-
 <h1>PALs Wordle</h1>
 
-<p>Guess the game:</p>
+<div id="grid"></div>
 
 <input id="guess">
-<button onclick="check()">Submit</button>
 
-<p id="result"></p>
+<button onclick="checkGuess()">Submit</button>
 
-<script>
-
-const answer="zelda"
-
-function check(){
-
-let guess=document.getElementById("guess").value.toLowerCase()
-
-if(guess===answer){
-document.getElementById("result").innerText="Correct!"
-}
-
-else{
-document.getElementById("result").innerText="Try again."
-}
-
-}
-
-</script>
-
-</body>
-</html>
+<script src="../js/wordle.js"></script>
