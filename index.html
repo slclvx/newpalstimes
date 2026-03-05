@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>PALs Gaming News</title>
+
+<title>PALs Daily</title>
+
 <link rel="stylesheet" href="style.css">
+
+<script src="script.js"></script>
+
 </head>
 
 <body>
 
 <header>
 
-<img src="images/logo.png" class="logo">
-
 <h1>PALs Daily</h1>
 
-<p>Gaming • Sports • Politics • Tech • Puzzles</p>
+<input id="search" placeholder="Search articles">
+
+<button onclick="search()">Search</button>
+
+<button onclick="toggleTheme()">Dark Mode</button>
 
 </header>
 
@@ -25,32 +32,27 @@
 <a href="sections/politics.html">Politics</a>
 <a href="sections/tech.html">Tech</a>
 <a href="puzzles/wordle.html">Wordle</a>
-<a href="puzzles/guessgame.html">Guess the Game</a>
-<a href="issues/issue1.html">Latest Issue</a>
+<a href="calendar/releases.html">Release Calendar</a>
+<a href="pages/leaderboard.html">Leaderboard</a>
 
 </nav>
 
-<section>
+<div class="container">
 
-<h2>Top Story</h2>
+<h2>Top Stories</h2>
 
-<article>
-<h3>Gaming Industry Expanding</h3>
-<p>Developers continue pushing boundaries with new engines and creative indie titles.</p>
-</article>
+<a href="pages/article.html">Indie Games Changing the Industry</a>
 
-<article>
-<h3>Community Spotlight</h3>
-<p>The PALs community continues growing with new creators and projects.</p>
-</article>
-
-</section>
+</div>
 
 <footer>
 
-<p>PALs Daily News</p>
+PALs Daily
 
 </footer>
 
+<script src="js/search.js"></script>
+
 </body>
+
 </html>
