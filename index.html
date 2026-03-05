@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PALs Gaming Newsletter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <img src="images/logo.png" class="logo">
+    <h1>PALs Gaming Newsletter</h1>
+    <p class="tagline">Daily News • Game Launches • Community</p>
+</header>
+
+<nav>
+    <a href="#launch">Launch Lineups</a>
+    <a href="#news">Gaming News</a>
+    <a href="#spotlight">PALs Spotlight</a>
+    <a href="#game">Game of the Week</a>
+    <a href="#puzzles">Mini Games</a>
+</nav>
+
+<section id="launch">
+    <h2>🚀 Launch Lineups</h2>
+
+    <article>
+        <h3>Hollow Knight: Silksong</h3>
+        <p>Expected release: 2026</p>
+        <p>Fans are waiting for Team Cherry's sequel with new abilities, enemies, and locations.</p>
+    </article>
+
+    <article>
+        <h3>Metroid Prime 4</h3>
+        <p>Expected release: 2026</p>
+        <p>Nintendo finally brings Samus back in a new first-person adventure.</p>
+    </article>
+</section>
+
+<section id="news">
+    <h2>📰 Gaming News</h2>
+
+    <article>
+        <h3>Nintendo Announces New Direct</h3>
+        <p>Rumors suggest a new Direct presentation may reveal upcoming Switch titles.</p>
+    </article>
+
+    <article>
+        <h3>Indie Games Rising</h3>
+        <p>Indie developers are dominating Steam charts with creative mechanics and storytelling.</p>
+    </article>
+
+</section>
+
+<section id="spotlight">
+    <h2>⭐ PALs Spotlight</h2>
+
+    <article>
+        <h3>Community Creator</h3>
+        <p>This week we highlight a PALs member building a Unity game.</p>
+    </article>
+</section>
+
+<section id="game">
+    <h2>🎮 Game of the Week</h2>
+
+    <article>
+        <h3>Stardew Valley</h3>
+        <p>A relaxing farming RPG where players build farms, explore caves, and build relationships.</p>
+    </article>
+</section>
+
+<section id="puzzles">
+    <h2>🧠 Mini Games</h2>
+
+    <div class="quiz">
+        <h3>Guess the Game</h3>
+        <p>Clue: Italian plumber saves a princess.</p>
+        <button onclick="reveal()">Reveal Answer</button>
+        <p id="answer"></p>
+    </div>
+</section>
+
+<footer>
+    <p>PALs Gaming Newsletter • Issue #1</p>
+    <p>Created by the PALs Community</p>
+</footer>
+
+<script>
+function reveal() {
+    document.getElementById("answer").innerText = "Super Mario Bros";
+}
+</script>
+
+</body>
+</html>
